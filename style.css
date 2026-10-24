@@ -90,3 +90,29 @@ a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
  .qr{display:block}.qr img{margin-bottom:12px}.form-grid{gap:24px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* KVANT BRAND REFRESH — faceted gold emblem, graphite wordmark, warm premium surfaces */
+.brand{gap:14px}
+.brand-mark{display:block;width:54px;height:54px;flex:0 0 54px;filter:drop-shadow(0 5px 7px rgba(151,105,0,.18))}
+.brand strong{font-size:22px;letter-spacing:3.2px;font-weight:900;color:#24262a}
+.brand small{margin-top:1px;font-size:8px;letter-spacing:1.45px;color:#81796a;font-weight:700}
+.footer-brand{display:inline-block;color:#b78a12;font-size:22px;font-weight:900;letter-spacing:3px}
+:root{--bg:#f6f4ef;--bg2:#fffdf9;--panel:#fffdf9;--panel2:#fff;--gold:#c99a18;--gold2:#efd36e;--text:#24262a;--muted:#6e6b65;--line:#e7e0d3;--soft:#f0ece3;--radius:18px;--shadow:0 22px 60px rgba(43,37,24,.09)}
+body{background:var(--bg)}
+body:before{background:radial-gradient(circle at 86% 8%,rgba(201,154,24,.13),transparent 28%),radial-gradient(circle at 8% 45%,rgba(126,111,80,.045),transparent 30%)}
+.header{background:rgba(255,253,249,.92);border-bottom-color:rgba(73,60,32,.11)}
+.menu .nav-cta,.btn{background:linear-gradient(135deg,#f3d977 0%,#d4a526 55%,#bd8a10 100%);border-color:#c99a18;color:#29251a}
+.hero h1 span{color:#b48710}
+.hero-media{border-color:#ded5c2;background:#e8e1d3}
+.hero-media:after{background:linear-gradient(180deg,transparent 45%,rgba(22,22,20,.74))}
+.pill{background:#fffdf9;border-color:#e7dfcf}
+.card,.feature,.step,.calc-panel,.calc-result,.form-card,.team-card,.gallery figure{border-color:#e7dfd0;background:#fffdf9}
+.card:hover{border-color:#d5b85d}
+.band{background:linear-gradient(115deg,#f7e8a5 0%,#e5c65b 52%,#d3a72c 100%);color:#28251e}
+.btn.alt{background:#fffdf9;border-color:#ddd4c2;color:#3b3934}
+.btn.dark{background:#292a2b;color:#fff;border-color:#292a2b}
+.number,.price{color:#a77b09}
+.form-card input,.form-card textarea,.field input,.field select,.field textarea{background:#fffefa;border-color:#ded6c7}
+.footer{background:#fffdf9;border-top-color:#e7dfd0}
+.float.gold{background:linear-gradient(135deg,#f5df89,#d4a526);border-color:#d4a526}
+@media(max-width:620px){.brand-mark{width:46px;height:46px;flex-basis:46px}.brand{gap:10px}.brand strong{font-size:19px}.brand small{font-size:7px;letter-spacing:1px}}
