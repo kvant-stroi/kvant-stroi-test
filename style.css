@@ -135,3 +135,20 @@ button,input,select,textarea{font:inherit}
  .breakdown div{font-size:14px;align-items:flex-start}.team-card img{height:300px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+
+/* Premium light brand refresh — October 2026 */
+:root{--bg:#f8f5ef;--surface:#fffefa;--surface-2:#f1ece3;--gold:#c9a044;--gold-dark:#98701a;--gold-light:#f0d985;--ink:#252b34;--muted:#6d7075;--line:#e7dfd2}
+body:before{background:radial-gradient(ellipse at 85% 4%,rgba(201,160,68,.11),transparent 32%),radial-gradient(ellipse at 5% 40%,rgba(35,58,83,.035),transparent 34%)}
+.header .nav{gap:22px}
+.brand small{color:#7b756b;font-size:8px;letter-spacing:1.1px}
+.header-contacts{display:flex;flex-direction:column;gap:4px;flex:0 0 auto;margin-left:4px;white-space:nowrap}
+.header-contacts a{font-size:12px;line-height:1.35;font-weight:800;color:#243d59;letter-spacing:.1px}
+.header-contacts a:first-child{color:#98701a}
+.header-contacts a:hover{color:#c49a32}
+.hero h1,.section-head h2,.process h2,.band h2{color:#233b56}
+.hero h1 span{color:#a77b17}
+.section-head p,.lead{color:#686d73}
+@media(max-width:1180px){.header .nav{gap:14px}.header-contacts a{font-size:11px}.menu{gap:10px}}
+@media(max-width:1050px){.header-contacts{order:3;flex-direction:row;gap:12px;width:100%;margin:0 0 5px 58px}.header .nav{flex-wrap:wrap}.menu{flex:1}}
+@media(max-width:560px){.header-contacts{margin:0;width:100%;justify-content:space-between;gap:8px}.header-contacts a{font-size:11px}.brand small{font-size:7px}}
