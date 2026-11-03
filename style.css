@@ -226,3 +226,11 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #b6
 @media(max-width:1100px){.home .hero-grid{width:calc(100% - 48px);gap:28px}.home .hero h1{font-size:34px}.home .hero .lead{font-size:16px}.home .hero-benefits{column-gap:14px}}
 @media(max-width:900px){.home .hero-grid{grid-template-columns:minmax(0,1fr);gap:28px;padding:30px 0}.home .hero h1{max-width:680px;font-size:clamp(34px,5vw,42px)}.home .hero .lead{max-width:640px}.home .hero-benefits{max-width:600px}.home .hero-media-main{width:100%}}
 @media(max-width:640px){.home .hero-grid{width:calc(100% - 32px);gap:24px;padding:26px 0}.home .hero h1{font-size:clamp(30px,8.6vw,38px);letter-spacing:-.6px}.home .hero .lead{font-size:16px}.home .hero .actions{gap:16px;margin-top:22px}.home .hero-benefits{margin-top:26px;gap:16px 12px}.home .hero-benefits>div{font-size:11px;gap:8px}.home .hero-benefits b{flex-basis:27px;font-size:27px}.home .hero-media-main,.home .hero-media-main>img{min-height:0;height:auto;aspect-ratio:3/2}}
+
+/* Full-width home first screen; only text keeps a modest internal reading inset. */
+.home .hero-grid{width:100%;max-width:none;margin:0;grid-template-columns:minmax(0,.95fr) minmax(0,1.2fr);gap:0;padding:0}
+.home .hero-copy{padding:32px clamp(24px,3vw,56px);min-width:0}
+.home .hero-media-main{width:100%;max-width:100%;min-width:0;margin:0}
+@media(max-width:1100px){.home .hero-grid{width:100%;gap:0;padding:0}.home .hero-copy{padding:30px 24px}}
+@media(max-width:900px){.home .hero-grid{grid-template-columns:minmax(0,1fr);width:100%;gap:0;padding:0}.home .hero-copy{padding:30px 24px}.home .hero-media-main{width:100%}}
+@media(max-width:640px){.home .hero-grid{width:100%;gap:0;padding:0}.home .hero-copy{padding:26px 16px}.home .hero-media-main,.home .hero-media-main>img{width:100%;height:auto;aspect-ratio:3/2}}
